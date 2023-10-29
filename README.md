@@ -99,15 +99,13 @@ primary settler)
 3. **Display Samples**: The top few rows of the dataset are displayed using `water_data.head()`. This shows how the data looks.
 
 4. **Data Summary**: A concise summary of the dataframe is printed using `water_data.info()`. It provides information about non-null counts and data types for each column.
-
-
-![input-sed vs sed-e](/input_sed-e.png)
+    ![input-sed vs sed-e](/input_sed-e.png)
 
 5. **Data Visualization**:
-    - Histograms: Histograms are created using `sns.histplot()` to visualize the distribution of features like `PH-E`, `SSV-E`, and `SED-E`¹[1].
+    - Histograms: Histograms are created using `sns.histplot()` to visualize the distribution of features like `PH-E`, `SSV-E`, and `SED-E`.
     - Bar Plots: Bar plots are used to show relationships between features like `PH-E` and class labels.
-    - Correlation Matrix: A heatmap displays correlations between features extracted from primary and secondary settlers²[2].
-    - Scatter Plots: Scatter plots show relationships between features like `PH-P` and `PH-D`³[3].
+    - Correlation Matrix: A heatmap displays correlations between features extracted from primary and secondary settlers.
+    - Scatter Plots: Scatter plots show relationships between features like `PH-P` and `PH-D`.
         ![corelation matrix](/cmatrix.png)
 
 6. **Data Preprocessing**:
